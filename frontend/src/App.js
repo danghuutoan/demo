@@ -11,7 +11,7 @@ import WelcomeSection from './sections/Welcome';
 function App() {
   return (
     <BrowserRouter>
-    <div onScroll={() => { console.log("scrolling")}}>
+   
       <MainNavigation/>
       <main className="main-content">
         <WelcomeSection/>
@@ -21,10 +21,8 @@ function App() {
         <h1>dfdsfdsfdsfdsf</h1> 
         <h1>dfdsfdsfdsfdsf</h1>   
       </main>
-
-      
       <MainFooter/>
-    </div>
+
     </BrowserRouter>
   );
 }
