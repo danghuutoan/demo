@@ -1,0 +1,7 @@
+.backdrop {
+    background: url("../images/particleBg.jpg");
+    width: 100vw;
+    height: 33vh;
+    position: relative;
+    background-size: cover;
+}

@@ -23,9 +23,7 @@ function App() {
           <Route path="/bookings" component={BookingsPage}/>
         </Switch>
       </main>
-      <footer className="main-footer">
-        <MainFooter/>
-      </footer>
+      <MainFooter/>
     </BrowserRouter>
   );
 }
